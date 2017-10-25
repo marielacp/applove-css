@@ -169,7 +169,7 @@ padding:13px;
 
 .section-2{  
   position: relative;
-  background: red;
+  background:#F1948A;
   text-align: center;
   color: white;
   margin-top: 0px;
@@ -177,7 +177,7 @@ padding:13px;
 
 .section-2 h2{
    font-size: 50px;
-   outline: 2px solid blue;
+  /* outline: 2px solid blue;*/
    margin-top: 0px;
 }
 
@@ -216,7 +216,7 @@ margin: 0;
 
 .section-3 h2{
   font-size: 50px;
-  outline: 2px solid blue;
+  /*outline: 2px solid blue;*/
   margin-top: 0px;
   text-transform: uppercase;
 }
@@ -228,6 +228,7 @@ margin: 0;
   padding: 1%;
   overflow: auto;
   font-family: sans-serif;
+  padding-bottom: 15%;
 }
 
 .foto {
@@ -247,7 +248,7 @@ margin: 0;
 .foto img {
   box-sizing: border-box;
   width: 300px;
-  height: 300px;
+  height: 270px;
   margin-left:100px;
   margin-bottom:15px;
 }
@@ -255,12 +256,11 @@ margin: 0;
 /*pie de pagina*/
 
 footer{
-  height:30%;
-  background: red;
-  padding: 2%;
+  background:#2E4053;
+  padding: 1%;
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 18px;
 
   
 }
