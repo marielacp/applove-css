@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
-  background: rgb(173, 126, 126);
+ /* background: rgb(173, 126, 126);*/
 }
 
 img {
@@ -24,15 +24,20 @@ img {
   width: 100%;
   
 }
-/*
-container {
-  width: 1200px;
+
+.container {
+  width: 300px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  float: left;
+  overflow: auto;
+  
+ 
+
 }
-/*
+
 .container:before, .container:after {
   content: " ";
   display: table;
@@ -123,7 +128,7 @@ header div a{
 
 /*Estilos para section*/
 
-section{
+.text-uppercase{
    position: relative;
   }
 .text-uppercase h2 {
@@ -163,6 +168,7 @@ padding:13px;
 /*Section 2 styles*/
 
 .section-2{  
+  position: relative;
   background: red;
   text-align: center;
   color: white;
@@ -213,4 +219,48 @@ margin: 0;
   outline: 2px solid blue;
   margin-top: 0px;
   text-transform: uppercase;
+}
+/*Section 4*/
+
+#gallery {
+  /*outline: 3px solid blue;*/
+  width: 100%;
+  padding: 1%;
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+.foto {
+  float: left;
+}
+
+.foto p {
+  position: relative;
+  left: 15%;
+  transform: translatey(-50%);
+  font-size: 20px;
+  color:black;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.foto img {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  margin-left:100px;
+  margin-bottom:15px;
+}
+
+/*pie de pagina*/
+
+footer{
+  height:30%;
+  background: red;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+
+  
 }
